@@ -8,6 +8,5 @@ public class Main {
 
         rw.setName("John");
         String name = rw.getName();
-        System.out.println(name);
     }
 }
