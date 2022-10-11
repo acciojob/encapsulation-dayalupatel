@@ -1,13 +1,13 @@
 package com.driver;
 
 public class Main {
-    public static void main(String[] args) {
-        RWOnly rw = new RWOnly();
-        //rw.name = "David";
-        //System.out.println(rw.name);
+    public static void main (String[]args){
+        RWOnly obj = new RWOnly();
+//        java: name has private access in com.driver.RWOnly
 
-        rw.setName("John");
-        String name = rw.getName();
-        System.out.println(name);
+        obj.setName("Kane Williamson");
+
+        System.out.println(obj.getName());
+        
     }
 }
